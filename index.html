@@ -3,10 +3,11 @@
     <head>
         <title>landing page</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="header">
-            <div class="logo">CAT</div>
+            <div class="header-logo">CAT</div>
             <ul class="header-links">
                 <li><a>header link one</a></li>
                 <li><a>header link two</a></li>
@@ -14,29 +15,37 @@
             </ul>
         </div>
 
-        <div class="introduction">
-            <div class="description">
-                <div class="heading">Website full of cats</div>
-                <div class="text">This website is your ultimate guide to cats</div>
-                <button type="button">Sign Up</button>
+        <div class="intro">
+            <div class="intro-description">
+                <div class="intro-heading">Website full of cats</div>
+                <div class="intro-text">This website is your ultimate guide to cats</div>
+                <button class="intro-button" type="button">Sign Up</button>
             </div>
-            <img src="images/pexels-pixabay.jpg" alt="cute cat">
+            <img src="images/pexels-pixabay.jpg" alt="cute cat" class="intro-image">
         </div>
 
         <div class="info">
-            <div class="info-heading">More images of cats</div>
-            <div class="cat-img-info">
-                <img src="images/pexels-evg-kowalievska.jpg" alt="orange tabby cat">
-                <div class="info-description">orange tabby cat in the sun looking good</div>
+            <div class="info-header">More images of cats</div>
+            <div class="info-cats">
+                <div class="info-cat">
+                    <img src="images/pexels-evg-kowalievska.jpg" alt="orange tabby cat" class="info-image">
+                    <div class="info-description">orange tabby cat in the sun looking good</div>
+                </div>
 
-                <img src="images/pexels-natalie-bond.jpg" alt="yawning cat">
-                <div class="info-description">yawning and having a good time</div>
+                <div class="info-cat">
+                    <img src="images/pexels-natalie-bond.jpg" alt="yawning cat" class="info-image">
+                    <div class="info-description">yawning and having a good time</div>
+                </div>
 
-                <img src="images/pexels-peng-louis.jpg" alt="small cute ragdoll">
-                <div class="info-description">cute ragdoll kitten that can be held in one hand</div>
+                <div class="info-cat">
+                    <img src="images/pexels-peng-louis.jpg" alt="small cute ragdoll" class="info-image">
+                    <div class="info-description">cute ragdoll kitten that can be held in one hand</div>
+                </div>
 
-                <img src="images/pexels-tranmautritam.jpg" alt="ragdoll with its tongue sticking out">
-                <div class="info-description">ragdoll chilling on the chair with its tongue sticking out</div>
+                <div class="info-cat"> 
+                    <img src="images/pexels-tranmautritam.jpg" alt="ragdoll with its tongue sticking out" class="info-image">
+                    <div class="info-description">ragdoll chilling on the chair with its tongue sticking out</div>
+                </div>
             </div>
         </div>
 
@@ -46,9 +55,11 @@
         </div>
 
         <div class="ad">
-            <div class="ad-hook">Call to action! It's time!</div>
-            <div class="ad-text">Sign up to see more cats by clicking that button right over there!</div>
-            <button type="button">Sign Up</button>
+            <div class="ad-description">
+                <div class="ad-hook">Call to action! It's time!</div>
+                <div class="ad-text">Sign up to see more cats by clicking that button right over there!</div>
+            </div>
+            <button class="ad-button" type="button">Sign Up</button>
         </div>
 
         <div class="footer">Copyright © Cat Supremacy 2023</div>
